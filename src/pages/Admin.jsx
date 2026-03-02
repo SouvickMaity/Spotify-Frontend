@@ -7,7 +7,7 @@
     import { MdDelete } from "react-icons/md";
     
 
-    const server = import.meta.env.ADMIN_SERVICE_URL;
+    const server = import.meta.env.VITE_ADMIN_SERVICE_URL;
 
     const Admin = () => {
     const navigate = useNavigate();

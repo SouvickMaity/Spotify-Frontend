@@ -8,7 +8,7 @@
     } from "react";
 
 
-    const server = import.meta.env.SONG_SERVICE_URL;
+    const server = import.meta.env.VITE_SONG_SERVICE_URL;
 
     const SongContext = createContext();
 
