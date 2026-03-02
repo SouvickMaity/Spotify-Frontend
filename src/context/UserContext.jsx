@@ -8,7 +8,7 @@
     import toast, { Toaster } from "react-hot-toast";
 
 
-    const server = import.meta.env.USER_SERVICE_URL;
+    const server = import.meta.env.VITE_USER_SERVICE_URL;
 
     const UserContext = createContext();
 
